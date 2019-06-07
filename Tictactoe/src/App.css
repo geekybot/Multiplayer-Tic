@@ -1,0 +1,126 @@
+.master {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.side-bar {
+  float: left;
+  width: 50%;
+  justify-content: center;
+  padding-top: 20%;
+}
+
+.game {
+  float: right;
+  width: 50%;
+}
+
+.board {
+  padding-top: 5%;
+  display: flex;
+  width: 600px;
+  height: 600px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+  
+.square {
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.square:hover {
+    cursor: pointer;
+    background-color: #80cd92;
+}
+
+.reset-button {
+  display: flex;
+  width: 120px;
+  height: 60px;
+  font-size: 25px;
+  background-color: #21E44F;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: white;
+  text-shadow: 3px 2px gray;
+}
+
+.reset-button:active {
+      background-color: #026F1B;
+}
+
+.button-line {
+  display: flex;
+  width: 500px;
+  padding-top: 20px;
+}
+
+.active-singleplayer-button {
+  padding: 2px;
+  display: flex;
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #2080E4;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: white;
+  text-shadow: 3px 2px gray; 
+}
+
+.deactived-singleplayer-button {
+  padding: 2px;
+  display: flex;
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #666D75;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: white;
+  text-shadow: 3px 2px gray; 
+}
+
+.active-multiplayer-button {
+  padding: 2px;
+  display: flex;
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #2080E4;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: white;
+  text-shadow: 3px 2px gray; 
+}
+
+.deactived-multiplayer-button {
+  padding: 2px;
+  display: flex;
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  background-color: #666D75;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: white;
+  text-shadow: 3px 2px gray; 
+}
